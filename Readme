@@ -1,1 +1,6 @@
-I built a GenAI-powered chatbot that allows consultants and auditors to query 5 years of financial reports of Irish Continental Group in natural language, reducing manual review time. The solution integrates RAG with embeddings, vector databases, and LLMs, and is deployed via Streamlit for real-time use.
+This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to interact with the Irish Continental Group’s (ICG) annual reports (2020–2024) using natural language queries.
+Instead of manually searching through lengthy PDF reports, consultants and analysts can now ask questions directly — such as:
+“What were the main revenue drivers in 2022?”
+“How did passenger volumes change post-COVID-19?”
+“What strategic risks were highlighted in 2023?”
+The chatbot retrieves relevant report sections and provides concise, AI-generated answers backed by source citations.
